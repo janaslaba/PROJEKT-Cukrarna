@@ -111,6 +111,10 @@ h3 {
 	padding-right: 40%;
 }
 
+.hero p {
+	font-style: italic;
+}
+
 .vitejte {
 	background-color: azure;
 }
@@ -119,11 +123,22 @@ h3 {
 .vitejte .obsah {
 	display: flex;
 	background-color: white;
+	align-items: center;
+}
+
+.vitejte .levy {
 	padding-left: 5px;
 	padding-right: 30px;
 }
 
-.vitejte img {
+.vitejte h2,
+.vitejte p {
+	margin: 20px 0;
+}
+
+.vitejte img,
+.produkty img,
+.pristup img {
 	border-radius: 5px;
 }
 
@@ -143,13 +158,51 @@ h3 {
 	background-color: #d2567d;
 }
 
-
-
 .nabidka {
 	background-color: #f0f0f0;
-
 }
 
+.produkty {
+	display: flex;
+	max-width: 1100px;
+	text-align: center;
+}
+
+.produkt {
+	background-color: white;
+	border-radius: 5px;
+	padding: 20px;
+	flex-shrink: 1;
+	min-width: 20%;
+}
+
+.produkt .dort {
+	min-width: 0;
+	min-height: 0;
+	flex-shrink: 1;
+	flex-basis: 20%;
+}
+
+.produkt h3,
+.produkt p {
+	margin: 0;
+	padding-top: 20px;
+}
+
+.jedna,
+.dva,
+.tri {
+	margin-right: 30px;
+}
+
+
+.pristup .obsah {
+	display: flex;
+}
+
+.pristup .pravy {
+	margin-left: 30px;
+}
 
 
 
